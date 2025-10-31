@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int k;
+    printf("あなたの体重は何キロですか？");
+    scanf("%d",&k);
+    
+    if (k >= 80)
+    {
+        printf("あなたはデブですね");
+    }
+    else if(k < 40)
+    {
+        printf("あなたはガリですね");
+    }
+    
+    else
+    {
+        printf("健康的な体ですね");
+    }
+
+    return 0;
+}
